@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper.css">
+</head>
+
+<body>
+    <div class="">
+        <header class="container">
+            <div class="logo">
+                <img src="./src/germes_logo.svg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Услуги</li>
+                    <li>Доставка</li>
+                    <li>Оплата</li>
+                    <li>Проекты</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <div class="star">
+                    <img src="./src/Star.svg">
+                </div>
+                <div class="star2">
+                    <img src="./src/Main.svg">
+                </div>
+                <div class="number">
+                    <span>8 (843) 203-93-43</span>
+                    <a href="#">заказать обратный звонок</a>
+                </div>
+                <div class="phone">
+                    <img src="./src/phone.svg">
+                </div>
+                <div class="burger" onclick="menu()">
+                    <div class="div1"></div>
+                    <div class="div2"></div>
+                    <div class="div3"></div>
+                </div>
+            </div>
+
+        </header>
+        <hr>
+        <main>
+
+            <!-- section1 -->
+            <section class="section-one">
+                <div class="section-one-left">
+                    <div onclick="OnCatalog()"><img src="./src/katalog.svg"></div>
+                    <div class="text">Каталог</div>
+                    <div class="text2">Каталог товаров</div>
+                    <img class="search-one" src="./src/Searchwhite.svg">
+                </div>
+                <div class="section-one-right">
+                    <ul>
+                        <li>Акции</li>
+                        <li class="serch-li"><input placeholder="Введите название товара"> <img src="./src/Search.svg">
+                        </li>
+                        <li>о компании</li>
+                        <li>контакты</li>
+                        <li class="button"> <img src="./src/Searchwhite.svg"> <button>Оптовый заказ</button></li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- section2 -->
+            <section class="section-two">
+                <div class="section-two-left">
+                    <ul class="section-two-left-ul">
+                        <li onmouseenter="OnShow()" onmouseleave="OffShow()">Стеновые материалы <img
+                                src="./src/VectorKatalog.svg"></li>
+                        <li>Фасадные материалы <img src="./src/VectorKatalog.svg"></li>
+                        <li>Строительные блоки <img src="./src/VectorKatalog.svg"></li>
+                        <li>Отделочные материалы <img src="./src/VectorKatalog.svg"></li>
+                        <li>Сухие смеси <img src="./src/VectorKatalog.svg"></li>
+                        <li>Благоустройство <img src="./src/VectorKatalog.svg"></li>
+                        <li>Лако-красочные материалы <img src="./src/VectorKatalog.svg"></li>
+                        <li>Прочие услуги <img src="./src/VectorKatalog.svg"></li>
+                        <li class="li-end">Распродажа товаров <img src="./src/VectorKatalog.svg"></li>
+                    </ul>
+                    <div class="section-two-left2">
+                        <ul class="section-two-left-ul2" onmouseenter="OnShow()" onmouseleave="OffShow()">
+                            <li>Стеновые материалы</li>
+                            <li>Фасадные материалы</li>
+                            <li>Распродажа товаров</li>
+                            <li>Сухие смеси</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-two-right">
+                    <div class="home-img">
+                        <img src="./src/section21.jpg">
+                        <img src="./src/home1.svg">
+                    </div>
+                    <div class="home-img1">
+                        <img src="./src/section1whith1000.jpg">
+                        <div class="transform">
+                        </div>
+                        <div class="home-info1">
+                            <div>
+                                <div class="home-info1-title">Лако-красочные материалы
+                                </div>
+                                <div class="home-info2">Скидки 30% на немецкую продукцию
+                                    Alpina на нашем сайте</div>
+                                <div class="info1-btn">
+                                    Перейти в каталог
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-info">
+                        <div>
+                            <div class="home-info-title">Кирпич облицовочный M95
+                                Воткинский
+                            </div>
+                            <div class="home-info1">Кол-во на поддоне, шт. - 297</div>
+                            <div class="home-info1">Формат одинарный</div>
+                            <div class="home-links">
+                                <a href="#">бесплатная доставка</a>
+                                <a href="#">в наличии</a>
+                            </div>
+                            <div class="home-prise">
+                                <span class="num">4 500</span>
+                                <img src="./src/prise.svg" alt="">
+                                <span>/ шт</span>
+                            </div>
+
+                            <div class="home-btns">
+                                <button class="buy-btn">
+                                    Купить в 1 клик
+                                </button>
+                                <button class="basket-btn">
+                                    <img src="src/basketMain.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="section-two2">
+                <div class="section-two2-main">
+                    <div class="section-two2-card1">
+                        <img src="src/card1.svg" alt="">
+                        <div class="text">
+                            Доставка стройматериалов и аренда спецтехники
+                        </div>
+                    </div>
+                    <div class="section-two2-card2">
+                        <img src="src/card2.svg" alt="">
+                        <div class="text">
+                            Скидки застройщикам и оптовикам
+                        </div>
+                    </div>
+                    <div class="section-two2-card3">
+                        <img src="src/card3.svg" alt="">
+                        <div class="text">
+                            Предлагаем лучшую цену
+                        </div>
+                    </div>
+                    <div class="section-two2-card4">
+                        <img src="src/card4.svg" alt="">
+                        <div class="text">
+                            Работаем 7 дней в неделю
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section3  -->
+            <section class="section-three">
+                <div class="first-section-three">
+                    <div class="first-section-three-left">
+                        <span>Спецпредложения</span>
+                    </div>
+                    <div class="first-section-three-right">
+                        <a href="#">
+                            <span>Перейти в раздел скидок</span>
+                            <img src="./img/link2.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="section-three-cards">
+                    <div class="section-three-card1">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right">
+                                        <button>
+                                            <img src="./src/check.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card2">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right">
+                                        <button>
+                                            <img src="./src/check.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card3">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right">
+                                        <button>
+                                            <img src="./src/check.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card4">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right">
+                                        <button>
+                                            <img src="./src/check.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card5">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right">
+                                        <button>
+                                            <img src="./src/check.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card6">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right1">
+                                        <button>
+                                            <img src="./src/MainBascket.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-three-card7">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/luchwayacena.jpg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-best">
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-card-price1-right">
+                                    <span>4 700</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div></div>
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right1">
+                                        <button>
+                                            <img src="./src/MainBascket.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card8">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/segodnya.jpg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right1">
+                                        <button>
+                                            <img src="./src/MainBascket.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card9">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <!-- <img src="src/lent.svg" alt=""> -->
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right1">
+                                        <button>
+                                            <img src="./src/MainBascket.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card10">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-top">
+                                <div class="section-three-card-top-left">
+                                    <img src="src/lent.svg" alt="">
+                                </div>
+                                <div class="section-three-card-top-right">
+                                    <img src="./src/star.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-text-info">
+                                    Кол-во на поддоне, шт. - 297
+                                </div>
+                                <div class="section-three-text-info">
+                                    Формат одинарный
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                    <a href="#">в наличии</a>
+                                </div>
+                                <div class="section-three-card-price">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                    <div class="section-three-card-btn-right1">
+                                        <button>
+                                            <img src="./src/MainBascket.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card11">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card11">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card11">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card12">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card13">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card14">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/1.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-card15">
+                        <div class="section-three-card-main">
+                            <div class="section-three-card-main-img">
+                                <img src="./src/3.jpg" alt="">
+                            </div>
+                            <div class="section-three-card-main-info">
+                                <div class="section-three-text-title">
+                                    Кирпич облицовочный M95 Воткинский
+                                </div>
+                                <div class="section-three-card-links">
+                                    <a href="#">бесплатная доставка</a>
+                                </div>
+                                    <div class="section-three-card-price1">
+                                    <span>4 500</span>
+                                    <img src="./src/price.svg" alt="">
+                                    <span>/ шт</span>
+                                </div>
+                                
+                                
+                                <div class="section-three-btns">
+                                    <div class="section-three-card-btn-left">
+                                        <button>Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- section4 -->
+            <section class="section_four">
+                <div class="section_four_text">
+                    <div class="section_four_text_left">Проекты из наших стройматериалов</div>
+                    <div class="section_four_text_right">
+                        <a href="#">
+                            <span>Смотреть все проекты </span>
+                            <img src="./src/link.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="section_four_foto">
+                    <div class="foto-wrapper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider_1">
+                                        <img src="./src/section41.jpg">
+                                        <div class="hover-block">
+                                            <div class="hover-block-text">
+                                                Аэропорт Казань
+                                            </div>
+                                            <div class="hover-block-text2">
+                                                Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс
+                                                услуг по
+                                                доставке.
+                                            </div>
+                                            <button class="hover-button">Перейти к объекту
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_2">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_3">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_4">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="foto-wrapper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider_1">
+                                        <img src="./src/section41.jpg">
+                                        <div class="hover-block">
+                                            <div class="hover-block-text">
+                                                Аэропорт Казань
+                                            </div>
+                                            <div class="hover-block-text2">
+                                                Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс
+                                                услуг по
+                                                доставке.
+                                            </div>
+                                            <button class="hover-button">Перейти к объекту
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_2">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_3">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_4">
+                                        <img src="./src/section41.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="foto-wrapper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider_1">
+                                        <img src="./src/section42.jpg">
+                                        <div class="hover-block">
+                                            <div class="hover-block-text">
+                                                Аэропорт Казань
+                                            </div>
+                                            <div class="hover-block-text2">
+                                                Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс
+                                                услуг по
+                                                доставке.
+                                            </div>
+                                            <button class="hover-button">Перейти к объекту
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_2">
+                                        <img src="./src/section42.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_3">
+                                        <img src="./src/section42.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_4">
+                                        <img src="./src/section42.jpg">
+                                        <!-- <div class="hover-block">
+                                        <div class="hover-block-text">
+                                            Аэропорт Казань
+                                        </div>
+                                        <div class="hover-block-text2">
+                                            Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                            доставке.
+                                        </div>
+                                        <button class="hover-button">Перейти к объекту
+                                        </button>
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="foto-wrapper-four">
+                        <img src="./src/section43.jpg">
+                        <div class="hover-block">
+                            <div class="hover-block-text">
+                                Аэропорт Казань
+                            </div>
+                            <div class="hover-block-text2">
+                                Комплекс услуг по доставке товара на Ваш строительный объект. Комплекс услуг по
+                                доставке.
+                            </div>
+                            <button class="hover-button">Перейти к объекту</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section5 -->
+            <section class="section_five">
+                <span class="section_five_text"> Дополнительные услуги </span>
+                <div class="cards">
+                    <div class="card" onmouseenter="bor()" onmouseleave="yoq()">
+                        <div class="img">
+                            <div class="krug">
+                                <img src="./src/car.svg">
+                            </div>
+                        </div>
+                        <div class="span1"> Доставка стройматериалов </div>
+                        <div class="span2">Комплекс услуг по доставке товара
+                            на Ваш строительный объект</div>
+
+                    </div>
+
+
+                    <div class="card" onmouseenter="bor1()" onmouseleave="yoq1()">
+                        <div class="img">
+                            <div class="krug">
+                                <img src="./src/men.svg">
+                            </div>
+                        </div>
+                        <div class="span1"> Шеф-монтаж </div>
+                        <div class="span2">Демонстрация секретов успешного
+                            строительства</div>
+                    </div>
+
+                    <div class="card" onmouseenter="bor2()" onmouseleave="yoq2()">
+                        <div class="img">
+                            <div class="krug">
+                                <img src="./src/kirpich.svg">
+                            </div>
+                        </div>
+                        <div class="span1">Кладка кирпича</div>
+                        <div class="span2">Кладка кирпича и блоков Pototherm</div>
+                    </div>
+
+                    <div class="card" onmouseenter="bor3()" onmouseleave="yoq3()">
+                        <div class="img">
+                            <div class="krug">
+                                <img src="./src/doc.svg">
+                            </div>
+                        </div>
+                        <div class="span1"> Сезонное хранение </div>
+                        <div class="span2">Хранение стройматериалов
+                            приобретенных зимой</div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!-- section6   -->
+        <section class="section-six">
+            <div class="section-six-Info">
+                <div class="section-six-left">
+                    Наш шоурум
+                </div>
+                <div class="section-six-right">
+                    <a href="#">
+                        <span>Перейти в контакты </span>
+                        <img src="./src/link2.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="section-six-img">
+                <img src="src/office1.png" alt="">
+                <img src="src/office2.png" alt="">
+                <img src="src/office3.png" alt="">
+            </div>
+        </section>
+
+        <!-- section7  -->
+
+        <section class="section-seven">
+            <div class="swiper mySwipers">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="logo1" src="src/logo1.png" alt=""></div>
+                  <div class="swiper-slide"> <img class="logo2" src="src/logo2.png" alt=""></div>
+                  <div class="swiper-slide"> <img class="logo3" src="src/logo3.png" alt=""></div>
+                  <div class="swiper-slide"><img class="logo4" src="src/logo4.png" alt=""></div>
+                  <div class="swiper-slide"><img class="logo5" src="src/logo5.png" alt=""></div>
+                  <div class="swiper-slide"><img class="logo6" src="src/logo6.png" alt=""></div>
+                  <div class="swiper-slide"><img class="logo7" src="src/logo7.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>      
+            
+        </section>
+        </main>
+
+
+
+
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-width">
+                <div class="footer-top">
+                    <div class="links">
+                        <span>Организация</span>
+                        <a href="#">О компании</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Статьи</a>
+                        <a href="#">Вакансии</a>
+                    </div>
+                    <div class="links">
+                        <span>Как купить</span>
+                        <a href="#">Доставка</a>
+                        <a href="#">Оплата</a>
+                        <a href="#">Проекты</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="links">
+                        <span>Мы на связи</span>
+                        <a  class='links_number' href="#">8 (843) 203-93-43</a>
+                        <a  class='links_info' href="#">info@td-germes.ru</a>
+                        <div class="web">
+                            <a href="#"><img src="./src/wb.svg" alt=""></a>
+                            <a href="#"><img src="./src/tg.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <span>Наш адрес</span>
+                        <a class="links_kazan" href="#">Казань</a>
+                        <a class="links_addres" href="#">ул.Сары Садыковой 30, 2 этаж</a>
+                        <a href="#">Пн - Пт c 8:30 до 17:30 </a>
+                        <a href="#">Суббота с 9:00 до 14:00</a>
+                        <a class='links_ws' href="#"><img src="./src/wb.svg" alt=""></a>
+                       
+                    </div>
+                    <div class="footer-btn">
+                        <button>Оптовый заказ</button>
+                    </div>
+                </div>
+                <div class="footer-width2">
+                    <div class='links_number' ><a   href="#">8 (843) 203-93-43</a>
+                    <a  href="#">info@td-germes.ru</a></div>
+                    <a class='links_vector' href="#"><img src="./src/Vectorfooter.svg" alt=""></a>
+                    <a class="links_kazan" href="#">Казань</a>
+                    <a class="links_addres" href="#">ул.Сары Садыковой 30, 2 этаж</a>
+                    <a class='links_ws' href="#"><img src="./src/wb.svg" alt=""> - задайте вопрос</a>
+                    <a class="links_btn" href="#"><img src="./src/phonefooter.jpg" alt=""> Заказать обратный звонок</a>
+
+                </div>
+            </div>
+            <div class="footer-width">
+                <hr>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        © 2012 — 2020, ООО «ТК «Гермес»
+                        Сайт www.td-germes.ru носит исключительно информационный характер и ни при каких условиях не
+                        является публичной офертой.
+                        Для получения информации о стоимости товаров, пожалуйста, обращайтесь в отдел продаж компании
+                        Гермес.
+                    </div>
+                    <div class="footer-bottom-right">
+                        <img src="./src/visa.png" alt="">
+                        <img src="./src/master.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script>
+        function menu() {
+            document.getElementsByClassName("menu")[0].classList.toggle("new_menu")
+            document.getElementsByClassName("div1")[0].classList.toggle("new_div1")
+            document.getElementsByClassName("div2")[0].classList.toggle("new_div2")
+            document.getElementsByClassName("div3")[0].classList.toggle("new_div3")
+        }
+
+        function bor() {
+            document.getElementsByClassName("card")[0].classList.add("bor")
+        }
+
+        function yoq() {
+            document.getElementsByClassName("card")[0].classList.remove("bor")
+        }
+
+        function bor1() {
+            document.getElementsByClassName("card")[1].classList.add("bor")
+        }
+
+        function yoq1() {
+            document.getElementsByClassName("card")[1].classList.remove("bor")
+        }
+
+        function bor2() {
+            document.getElementsByClassName("card")[2].classList.add("bor")
+        }
+
+        function yoq2() {
+            document.getElementsByClassName("card")[2].classList.remove("bor")
+        }
+
+        function bor3() {
+            document.getElementsByClassName("card")[3].classList.add("bor")
+        }
+
+        function yoq3() {
+            document.getElementsByClassName("card")[3].classList.remove("bor")
+        }
+
+
+        function OnShow() {
+            document.getElementsByClassName("section-two-left-ul2")[0].classList.add("section-two-left2-new")
+        }
+
+        function OffShow() {
+            document.getElementsByClassName("section-two-left-ul2")[0].classList.remove("section-two-left2-new")
+        }
+
+
+        function OnCatalog() {
+            document.getElementsByClassName("section-two-left")[0].classList.toggle("section-two-left-new")
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
